@@ -1,0 +1,29 @@
+{
+  "name": "stories",
+  "version": "1.0.0",
+  "description": "kitalulus stories",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "start": "serve docs"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "hls.js": "^1.4.12",
+    "rollup": "^4.5.1",
+    "rollup-plugin-auto-reload": "^1.0.3",
+    "rollup-plugin-css-only": "^4.5.2",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-serve": "^2.0.2",
+    "rollup-plugin-svelte": "^7.1.6",
+    "svelte": "^4.2.7"
+  },
+  "dependencies": {
+    "svelte-spa-router": "^3.3.0"
+  }
+}
