@@ -8,3 +8,6 @@ how to
 
 npm i
 npm run dev
+
+check this out
+https://bennykl.github.io/story/
